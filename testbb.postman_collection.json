@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "a84bea54-0b58-41fa-a158-3040c0f094b4",
+		"name": "版本发布",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "版本查询",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "mpuv=9de7cc8a-c3ff-4233-575b-32a462384b9f; pgv_pvi=3539382272; pgv_si=s1739981824; _qpsvr_localtk=0.7213185552596162; ptisp=cnc; RK=iJYQdcZoEd; ptcz=b88f6290ec16a4d4b1679ce2e970689d44fc8fb0deaf446181f1c96360c68d27; uin=o0980155520; skey=@Qvn0ptGbT; qqmusic_uin=; qqmusic_key=; qqmusic_fromtag=; pgv_pvid=592795392; pgv_info=ssid=s5926093740; rv2=80CB3799F7FB903325AD40EE1DFF04E89B759D3E9F710A0DE4; property20=7C7316E546D85FFBD6894E24B33B37C6A3745FE1117673BFCC9D9B49040701D92EC3BF98ADABB702; user_uuid=ab1b4cda984c44d7abeb8b6a6abc87c0; utk=6fcd8307cfd54671895387f4b9421c74; o_cookie=980155520; pac_uid=1_980155520",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"filePid\": 0, \r\n\t\"pageNo\": 1, \r\n\t\"pageSize\": 15\r\n }\r\n"
+				},
+				"url": {
+					"raw": "https://roadautoota.map.qq.com/vehicle-ota/web/configFile/querySubList",
+					"protocol": "https",
+					"host": [
+						"roadautoota",
+						"map",
+						"qq",
+						"com"
+					],
+					"path": [
+						"vehicle-ota",
+						"web",
+						"configFile",
+						"querySubList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
